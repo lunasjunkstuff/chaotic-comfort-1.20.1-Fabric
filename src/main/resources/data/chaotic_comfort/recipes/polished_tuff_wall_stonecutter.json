@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "chaotic_comfort:polished_tuff"
+    },
+    {
+      "item": "chaotic_comfort:tuff_bricks"
+    }
+  ],
+  "result": "chaotic_comfort:polished_tuff_wall",
+  "count": 1
+}

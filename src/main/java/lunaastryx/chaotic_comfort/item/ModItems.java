@@ -18,7 +18,7 @@ public class ModItems {
             new MusicDiscItem(7, ModSounds.POMMES_ROT_WEISS, new FabricItemSettings().maxCount(1), 61));
 
     public static final Item ELECTRIC_GUITAR = registerItem("electric_guitar",
-            new AxeItem(ModToolMaterialClass.ELECTRIC_GUITAR, -1, -3f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterialClass.ELECTRIC_GUITAR, 1, -2.67f, new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.ELECTRIC_GUITAR);

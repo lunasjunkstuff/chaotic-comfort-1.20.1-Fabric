@@ -4,6 +4,7 @@ import lunaastryx.chaotic_comfort.block.ModBlocks;
 import lunaastryx.chaotic_comfort.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
@@ -15,10 +16,28 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool tuffpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.TUFF);
 
-        blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF);
-        blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF_BRICKS);
+        tuffpool.stairs(ModBlocks.TUFF_STAIRS);
+        tuffpool.slab(ModBlocks.TUFF_SLAB);
+        tuffpool.wall(ModBlocks.TUFF_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool tuffbrickpool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TUFF_BRICKS);
+
+        tuffbrickpool.stairs(ModBlocks.TUFF_BRICK_STAIRS);
+        tuffbrickpool.slab(ModBlocks.TUFF_BRICK_SLAB);
+        tuffbrickpool.wall(ModBlocks.TUFF_BRICK_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool polishedtuffpool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_TUFF);
+
+        polishedtuffpool.slab(ModBlocks.POLISHED_TUFF_SLAB);
+        polishedtuffpool.stairs(ModBlocks.POLISHED_TUFF_STAIRS);
+        polishedtuffpool.wall(ModBlocks.POLISHED_TUFF_WALL);
+
+        blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF).log(ModBlocks.CHISELED_TUFF);
+        blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF_BRICKS).log(ModBlocks.CHISELED_TUFF_BRICKS);
+
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.PALE_MOSS_BLOCK, ModBlocks.PALE_MOSS_CARPET);
     }
 
     @Override

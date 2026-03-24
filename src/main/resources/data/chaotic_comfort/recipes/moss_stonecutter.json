@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "chaotic_comfort:pale_moss_block"
+  },
+  "result": "minecraft:moss_block",
+  "count": 1
+}

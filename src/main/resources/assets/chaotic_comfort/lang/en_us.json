@@ -6,7 +6,25 @@
   "item.chaotic_comfort.pommes_rot_weiss_music_disc": "Ugly Music Disc",
   "item.chaotic_comfort.pommes_rot_weiss_music_disc.desc": "Pommes Rot Weiss - @tacokaiser",
 
+  "block.chaotic_comfort.tuff_slab": "Tuff Slab",
+  "block.chaotic_comfort.tuff_stairs": "Tuff Stairs",
+  "block.chaotic_comfort.tuff_wall": "Tuff Wall",
+
   "block.chaotic_comfort.tuff_bricks": "Tuff Bricks",
+  "block.chaotic_comfort.tuff_brick_slab": "Tuff Brick Slab",
+  "block.chaotic_comfort.tuff_brick_stairs": "Tuff Brick Stairs",
+  "block.chaotic_comfort.tuff_brick_wall": "Tuff Brick Wall",
+
+  "block.chaotic_comfort.polished_tuff": "Polished Tuff",
+  "block.chaotic_comfort.polished_tuff_slab": "Polished Tuff Slab",
+  "block.chaotic_comfort.polished_tuff_stairs": "Polished Tuff Stairs",
+  "block.chaotic_comfort.polished_tuff_wall": "Polished Tuff Wall",
+
+  "block.chaotic_comfort.chiseled_tuff": "Chiseled Tuff",
+  "block.chaotic_comfort.chiseled_tuff_bricks": "Chiseled Tuff Bricks",
+
+  "block.chaotic_comfort.pale_moss_block": "Pale Moss",
+  "block.chaotic_comfort.pale_moss_carpet": "Pale Moss Carpet",
 
   "itemgroup.chaotic_comfort": "Chaotic Comfort"
 }

@@ -3,9 +3,9 @@
 	"id": "chaotic_comfort",
 	"version": "${version}",
 	"name": "Chaotic Comfort",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "When Modding, its always a bit chaotic",
 	"authors": [
-		"Me!"
+		"LunaAstryx!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

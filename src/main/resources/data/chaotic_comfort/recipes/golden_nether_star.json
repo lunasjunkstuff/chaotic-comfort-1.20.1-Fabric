@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  },
+  "result": "chaotic_comfort:golden_nether_star"
+}
