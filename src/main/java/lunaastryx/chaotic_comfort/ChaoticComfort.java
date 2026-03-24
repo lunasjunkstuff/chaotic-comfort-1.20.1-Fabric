@@ -1,7 +1,9 @@
 package lunaastryx.chaotic_comfort;
 
+import lunaastryx.chaotic_comfort.block.ModBlocks;
 import lunaastryx.chaotic_comfort.item.ModItemGroups;
 import lunaastryx.chaotic_comfort.item.ModItems;
+import lunaastryx.chaotic_comfort.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,7 +17,10 @@ public class ChaoticComfort implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		ModItemGroups.registerItemGroups();
+
+		ModSounds.registerSounds();
 	}
 }

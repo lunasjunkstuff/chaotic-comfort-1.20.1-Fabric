@@ -1,5 +1,12 @@
 {
+  "item.chaotic_comfort.golden_nether_star": "Golden Nether Star",
+
   "item.chaotic_comfort.electric_guitar": "Electric Guitar",
+
+  "item.chaotic_comfort.pommes_rot_weiss_music_disc": "Ugly Music Disc",
+  "item.chaotic_comfort.pommes_rot_weiss_music_disc.desc": "Pommes Rot Weiss - @tacokaiser",
+
+  "block.chaotic_comfort.tuff_bricks": "Tuff Bricks",
 
   "itemgroup.chaotic_comfort": "Chaotic Comfort"
 }

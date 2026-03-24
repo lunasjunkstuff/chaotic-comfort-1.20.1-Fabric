@@ -1,6 +1,7 @@
 package lunaastryx.chaotic_comfort.item;
 
 import lunaastryx.chaotic_comfort.ChaoticComfort;
+import lunaastryx.chaotic_comfort.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,7 +15,11 @@ public class ModItemGroups {
             new Identifier(ChaoticComfort.MOD_ID, "chaotic_comfort"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.chaotic_comfort"))
                     .icon(() -> new ItemStack(ModItems.ELECTRIC_GUITAR)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.ELECTRIC_GUITAR);
+                        entries.add(ModItems.GOLDEN_NETHER_STAR);
+                        entries.add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
+                        entries.add(ModBlocks.TUFF_BRICKS);
 
                     }).build());
 
