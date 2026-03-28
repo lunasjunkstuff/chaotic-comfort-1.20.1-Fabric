@@ -38,6 +38,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF_BRICKS).log(ModBlocks.CHISELED_TUFF_BRICKS);
 
         blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.PALE_MOSS_BLOCK, ModBlocks.PALE_MOSS_CARPET);
+
+        BlockStateModelGenerator.BlockTexturePool palepool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PALE_OAK_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALE_OAK_LEAVES);
+        blockStateModelGenerator.registerLog(ModBlocks.PALE_OAK_LOG).log(ModBlocks.PALE_OAK_LOG).wood(ModBlocks.PALE_OAK_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PALE_OAK_LOG).log(ModBlocks.STRIPPED_PALE_OAK_LOG).wood(ModBlocks.STRIPPED_PALE_OAK_WOOD);
+
+        palepool.stairs(ModBlocks.PALE_OAK_STAIRS);
+        palepool.button(ModBlocks.PALE_OAK_BUTTON);
+        palepool.pressurePlate(ModBlocks.PALE_OAK_PRESSURE_PLATE);
+        palepool.fenceGate(ModBlocks.PALE_OAK_FENCE_GATE);
+        palepool.fence(ModBlocks.PALE_OAK_FENCE);
+        palepool.slab(ModBlocks.PALE_OAK_SLAB);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.PALE_OAK_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PALE_OAK_TRAPDOOR);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package lunaastryx.chaotic_comfort.datagen;
 
+import lunaastryx.chaotic_comfort.block.ModBlocks;
 import lunaastryx.chaotic_comfort.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -21,5 +22,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.ELECTRIC_GUITAR);
 
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.PALE_OAK_PLANKS.asItem());
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PALE_OAK_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PALE_OAK_LOG.asItem())
+                .add(ModBlocks.PALE_OAK_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PALE_OAK_WOOD.asItem());
     }
 }

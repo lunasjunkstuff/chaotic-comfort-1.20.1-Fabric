@@ -31,6 +31,33 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CHISELED_TUFF)
                 .add(ModBlocks.CHISELED_TUFF_BRICKS);
 
+        getOrCreateTagBuilder(BlockTags.PLANKS)
+                .add(ModBlocks.PALE_OAK_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PALE_OAK_LOG)
+                .add(ModBlocks.STRIPPED_PALE_OAK_LOG)
+                .add(ModBlocks.PALE_OAK_WOOD)
+                .add(ModBlocks.STRIPPED_PALE_OAK_WOOD);;
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.PALE_OAK_PLANKS)
+                .add(ModBlocks.PALE_OAK_LOG)
+                .add(ModBlocks.PALE_OAK_WOOD)
+                .add(ModBlocks.STRIPPED_PALE_OAK_LOG)
+                .add(ModBlocks.STRIPPED_PALE_OAK_WOOD)
+                .add(ModBlocks.PALE_OAK_DOOR)
+                .add(ModBlocks.PALE_OAK_TRAPDOOR)
+                .add(ModBlocks.PALE_OAK_BUTTON)
+                .add(ModBlocks.PALE_OAK_PRESSURE_PLATE)
+                .add(ModBlocks.PALE_OAK_SLAB)
+                .add(ModBlocks.PALE_OAK_STAIRS)
+                .add(ModBlocks.PALE_OAK_FENCE)
+                .add(ModBlocks.PALE_OAK_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.LEAVES)
+                .add(ModBlocks.PALE_OAK_LEAVES);
+
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.TUFF_WALL)
                 .add(ModBlocks.POLISHED_TUFF_WALL)
@@ -39,12 +66,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.TUFF_SLAB)
                 .add(ModBlocks.TUFF_BRICK_SLAB)
-                .add(ModBlocks.POLISHED_TUFF_SLAB);
+                .add(ModBlocks.POLISHED_TUFF_SLAB)
+                .add(ModBlocks.PALE_OAK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.TUFF_STAIRS)
                 .add(ModBlocks.TUFF_BRICK_STAIRS)
-                .add(ModBlocks.POLISHED_TUFF_STAIRS);
+                .add(ModBlocks.POLISHED_TUFF_STAIRS)
+                .add(ModBlocks.PALE_OAK_STAIRS);
 
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.PALE_OAK_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.PALE_OAK_FENCE_GATE);
     }
 }

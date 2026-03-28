@@ -26,5 +26,22 @@
   "block.chaotic_comfort.pale_moss_block": "Pale Moss",
   "block.chaotic_comfort.pale_moss_carpet": "Pale Moss Carpet",
 
+  "block.chaotic_comfort.pale_oak_planks": "Pale Oak Planks",
+  "block.chaotic_comfort.pale_oak_stairs": "Pale Oak Stairs",
+  "block.chaotic_comfort.pale_oak_slab": "Pale Oak Slab",
+  "block.chaotic_comfort.pale_oak_button": "Pale Oak Button",
+  "block.chaotic_comfort.pale_oak_pressure_plate": "Pale Oak Pressure Plate",
+  "block.chaotic_comfort.pale_oak_fence": "Pale Oak Fence",
+  "block.chaotic_comfort.pale_oak_fence_gate": "Pale Oak Fence Gate",
+  "block.chaotic_comfort.pale_oak_door": "Pale Oak Door",
+  "block.chaotic_comfort.pale_oak_trapdoor": "Pale Oak Trapdoor",
+  "block.chaotic_comfort.pale_oak_leaves": "Pale Oak Leaves",
+  "block.chaotic_comfort.pale_oak_log": "Pale Oak Log",
+  "block.chaotic_comfort.pale_oak_wood": "Pale Oak Wood",
+  "block.chaotic_comfort.stripped_pale_oak_log": "Stripped Pale Oak Log",
+  "block.chaotic_comfort.stripped_pale_oak_wood": "Stripped Pale Oak Wood",
+
+  "entity.minecraft.villager.guy": "Guy",
+
   "itemgroup.chaotic_comfort": "Chaotic Comfort"
 }

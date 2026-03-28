@@ -48,6 +48,44 @@ public class ModBlocks {
     public static final Block PALE_MOSS_CARPET = registerBlock("pale_moss_carpet",
             new CarpetBlock(FabricBlockSettings.copyOf(Blocks.MOSS_CARPET)));
 
+    public static final Block PALE_OAK_PLANKS = registerBlock("pale_oak_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block PALE_OAK_STAIRS = registerBlock("pale_oak_stairs",
+            new StairsBlock(ModBlocks.PALE_OAK_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block PALE_OAK_SLAB = registerBlock("pale_oak_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+
+    public static final Block PALE_OAK_BUTTON = registerBlock("pale_oak_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON), BlockSetType.OAK, 10, true));
+    public static final Block PALE_OAK_PRESSURE_PLATE = registerBlock("pale_oak_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+
+    public static final Block PALE_OAK_FENCE = registerBlock("pale_oak_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block PALE_OAK_FENCE_GATE = registerBlock("pale_oak_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE_GATE), WoodType.CHERRY));
+
+    public static final Block PALE_OAK_DOOR = registerBlock("pale_oak_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block PALE_OAK_TRAPDOOR = registerBlock("pale_oak_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
+
+    public static final Block PALE_OAK_LOG = registerBlock("pale_oak_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG)));
+
+    public static final Block PALE_OAK_WOOD = registerBlock("pale_oak_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD)));
+
+    public static final Block STRIPPED_PALE_OAK_LOG = registerBlock("stripped_pale_oak_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG)));
+
+    public static final Block STRIPPED_PALE_OAK_WOOD = registerBlock("stripped_pale_oak_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD)));
+
+    public static final Block PALE_OAK_LEAVES = registerBlock("pale_oak_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

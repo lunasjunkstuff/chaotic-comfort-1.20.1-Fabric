@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "chaotic_comfort:pale_oak_leaves"
+  },
+  "result": "minecraft:dark_oak_leaves",
+  "count": 1
+}

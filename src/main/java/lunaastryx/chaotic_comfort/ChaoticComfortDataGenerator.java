@@ -1,9 +1,6 @@
 package lunaastryx.chaotic_comfort;
 
-import lunaastryx.chaotic_comfort.datagen.ModBlockTagProvider;
-import lunaastryx.chaotic_comfort.datagen.ModItemTagProvider;
-import lunaastryx.chaotic_comfort.datagen.ModLootTableProvider;
-import lunaastryx.chaotic_comfort.datagen.ModModelProvider;
+import lunaastryx.chaotic_comfort.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -16,5 +13,6 @@ public class ChaoticComfortDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModPoiTagProvider::new);
 	}
 }
