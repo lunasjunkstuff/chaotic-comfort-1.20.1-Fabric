@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:stonecutting",
-  "ingredient": [
-    {
-      "item": "minecraft:tuff"
-    },
-    {
-      "item": "chaotic_comfort:polished_tuff"
-    },
-    {
-      "item": "chaotic_comfort:tuff_bricks"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
   ],
-  "result": "chaotic_comfort:chiseled_tuff",
-  "count": 1
+  "key": {
+    "#": {
+      "item": "chaotic_comfort:tuff_slab"
+    }
+  },
+  "result": {
+    "item": "chaotic_comfort:chiseled_tuff",
+    "count": 1
+  }
 }
