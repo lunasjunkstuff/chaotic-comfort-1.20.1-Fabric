@@ -53,11 +53,15 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.PALE_OAK_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PALE_OAK_TRAPDOOR);
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PURPLE_TULIP, ModBlocks.POTTED_PURPLE_TULIP, BlockStateModelGenerator.TintType.NOT_TINTED );
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_TULIP, ModBlocks.POTTED_YELLOW_TULIP, BlockStateModelGenerator.TintType.NOT_TINTED );
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ELECTRIC_GUITAR, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLITCHY_ELECTRIC_GUITAR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_NETHER_STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.POMMES_ROT_WEISS_MUSIC_DISC, Models.GENERATED);
     }

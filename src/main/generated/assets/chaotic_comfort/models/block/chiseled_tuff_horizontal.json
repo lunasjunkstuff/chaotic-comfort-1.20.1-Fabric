@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "chaotic_comfort:block/chiseled_tuff_top",
+    "side": "chaotic_comfort:block/chiseled_tuff"
+  }
+}

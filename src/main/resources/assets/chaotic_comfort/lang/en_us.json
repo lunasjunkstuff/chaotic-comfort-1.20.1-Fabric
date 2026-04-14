@@ -2,6 +2,11 @@
   "item.chaotic_comfort.golden_nether_star": "Golden Nether Star",
 
   "item.chaotic_comfort.electric_guitar": "Electric Guitar",
+  "item.chaotic_comfort.glitchy_electric_guitar": "§5§k§lElectric Guitar§r§r§r",
+  "tooltip.chaotic_chaos.glitchy_electric_guitar.tooltip": "§5You´re not supposed to be here§r",
+
+  "block.chaotic_comfort.purple_tulip": "Purple Tulip",
+  "block.chaotic_comfort.yellow_tulip": "Yellow Tulip",
 
   "item.chaotic_comfort.pommes_rot_weiss_music_disc": "Ugly Music Disc",
   "item.chaotic_comfort.pommes_rot_weiss_music_disc.desc": "Pommes Rot Weiss - @tacokaiser",

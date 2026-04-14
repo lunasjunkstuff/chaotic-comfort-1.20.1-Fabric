@@ -9,9 +9,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterialClass implements ToolMaterial {
     ELECTRIC_GUITAR(4, 2467, 9.0f, 8f, 17,
-            () -> Ingredient.ofItems(Blocks.OAK_PLANKS))
-
-    ;
+            () -> Ingredient.ofItems(Blocks.OAK_PLANKS));
 
     private final int miningLevel;
     private final int itemDurability;

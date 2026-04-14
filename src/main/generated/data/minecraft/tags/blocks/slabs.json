@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chaotic_comfort:tuff_slab",
+    "chaotic_comfort:tuff_brick_slab",
+    "chaotic_comfort:polished_tuff_slab",
+    "chaotic_comfort:pale_oak_slab"
+  ]
+}

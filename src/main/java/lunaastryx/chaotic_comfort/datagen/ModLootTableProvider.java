@@ -44,5 +44,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALE_OAK_SLAB, slabDrops(ModBlocks.PALE_OAK_SLAB));
 
         addDrop(ModBlocks.PALE_OAK_LEAVES, leavesDrops(ModBlocks.PALE_OAK_LEAVES, ModBlocks.PALE_OAK_PLANKS, 0.025f));
+
+        addDrop(ModBlocks.PURPLE_TULIP);
+        addPottedPlantDrops(ModBlocks.POTTED_PURPLE_TULIP);
+        addDrop(ModBlocks.YELLOW_TULIP);
+        addPottedPlantDrops(ModBlocks.POTTED_YELLOW_TULIP);
     }
 }

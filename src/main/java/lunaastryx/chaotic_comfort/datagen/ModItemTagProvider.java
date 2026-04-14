@@ -4,6 +4,7 @@ import lunaastryx.chaotic_comfort.block.ModBlocks;
 import lunaastryx.chaotic_comfort.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -19,8 +20,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
 
-        getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.ELECTRIC_GUITAR);
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.ELECTRIC_GUITAR)
+                .add(ModItems.GLITCHY_ELECTRIC_GUITAR);
+
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(Items.COPPER_INGOT);
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.PALE_OAK_PLANKS.asItem());

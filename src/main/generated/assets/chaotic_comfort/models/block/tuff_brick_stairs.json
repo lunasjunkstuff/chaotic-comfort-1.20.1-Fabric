@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "chaotic_comfort:block/tuff_bricks",
+    "side": "chaotic_comfort:block/tuff_bricks",
+    "top": "chaotic_comfort:block/tuff_bricks"
+  }
+}

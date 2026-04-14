@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "chaotic_comfort:tuff_bricks",
+    "chaotic_comfort:tuff_wall",
+    "chaotic_comfort:tuff_stairs",
+    "chaotic_comfort:tuff_slab",
+    "chaotic_comfort:tuff_bricks",
+    "chaotic_comfort:tuff_brick_stairs",
+    "chaotic_comfort:tuff_brick_slab",
+    "chaotic_comfort:tuff_brick_wall",
+    "chaotic_comfort:polished_tuff",
+    "chaotic_comfort:polished_tuff_slab",
+    "chaotic_comfort:polished_tuff_wall",
+    "chaotic_comfort:polished_tuff_stairs",
+    "chaotic_comfort:chiseled_tuff",
+    "chaotic_comfort:chiseled_tuff_bricks"
+  ]
+}
