@@ -16,16 +16,23 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillagers {
 
-    public static final RegistryKey<PointOfInterestType> SOUND_POI_KEY = poikey("soundpoi");
-    public static final PointOfInterestType SOUND_POI = registerPoi("soundpoi", Blocks.TERRACOTTA);
+    public static final RegistryKey<PointOfInterestType> GUY_POI_KEY = poikey("guypoi");
+    public static final PointOfInterestType GUY_POI = registerPoi("guypoi", Blocks.TERRACOTTA);
 
-    public static final VillagerProfession GUY = registerProfession("guy", SOUND_POI_KEY);
+    public static final VillagerProfession GUY = registerProfession("guy", GUY_POI_KEY);
+
+    public static final RegistryKey<PointOfInterestType> FLORIST_POI_KEY = poikey("floristpoi");
+    public static final PointOfInterestType FLORIST_POI = registerPoi("floristpoi", Blocks.FLOWER_POT);
+
+    public static final VillagerProfession FLORIST = registerProfession("florist", FLORIST_POI_KEY);
 
     private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
         return Registry.register(Registries.VILLAGER_PROFESSION, new Identifier(ChaoticComfort.MOD_ID, name),
                 new VillagerProfession(name, entry -> entry.matchesKey(type), entry -> entry.matchesKey(type),
                         ImmutableSet.of(), ImmutableSet.of(), SoundEvents.ENTITY_VILLAGER_WORK_MASON));
     }
+
+
 
 
 
@@ -38,6 +45,6 @@ public class ModVillagers {
     }
 
     public static void registerVillagers() {
-        ChaoticComfort.LOGGER.info("Registering Villagers " + ChaoticComfort.MOD_ID);
+        ChaoticComfort.LOGGER.info("Registering Villager J-words for" + ChaoticComfort.MOD_ID);
     }
 }

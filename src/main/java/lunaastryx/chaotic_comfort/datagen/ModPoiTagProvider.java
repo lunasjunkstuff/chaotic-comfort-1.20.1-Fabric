@@ -20,6 +20,10 @@ public class ModPoiTagProvider extends TagProvider<PointOfInterestType> {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup lookup) {
         this.getOrCreateTagBuilder(PointOfInterestTypeTags.ACQUIRABLE_JOB_SITE)
-                .addOptional(new Identifier(ChaoticComfort.MOD_ID, "soundpoi"));
+                .addOptional(new Identifier(ChaoticComfort.MOD_ID, "guypoi"));
+
+
+        this.getOrCreateTagBuilder(PointOfInterestTypeTags.ACQUIRABLE_JOB_SITE)
+                .addOptional(new Identifier(ChaoticComfort.MOD_ID, "floristpoi"));
     }
 }

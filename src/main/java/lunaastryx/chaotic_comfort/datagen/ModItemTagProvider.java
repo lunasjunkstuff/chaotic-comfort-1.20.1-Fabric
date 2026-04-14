@@ -20,9 +20,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
 
-        getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.ELECTRIC_GUITAR)
-                .add(ModItems.GLITCHY_ELECTRIC_GUITAR);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.ELECTRIC_GUITAR);
 
         getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
                 .add(Items.COPPER_INGOT);

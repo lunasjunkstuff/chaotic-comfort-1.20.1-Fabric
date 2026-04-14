@@ -2,7 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "chaotic_comfort:soundpoi",
+      "id": "chaotic_comfort:guypoi",
+      "required": false
+    },
+    {
+      "id": "chaotic_comfort:floristpoi",
       "required": false
     }
   ]
