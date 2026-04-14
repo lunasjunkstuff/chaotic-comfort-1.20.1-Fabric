@@ -9,6 +9,6 @@ Blocks:
 -Tuff Blocks Backport
 -A few more Tulip variants
 More Stuff:
--Villager J-word(trades a few colors terracotta, cobbled deepslate, tuff, stone bricks, brick blocks, goofy music disc and electric guitar)
+-Villager J-words(one trades a few colors terracotta, cobbled deepslate, tuff, stone bricks, brick blocks, goofy music disc and electric guitar, the other trades all types of tulips as of writing this)
 -Goofy Music Disc
 -Some QoL features and Backported Recipes
