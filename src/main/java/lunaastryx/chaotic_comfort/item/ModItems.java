@@ -34,6 +34,7 @@ public class ModItems {
                     super.appendTooltip(stack, world, tooltip, context);
                 }
             });
+    //unobtainable Lore Item, dw about it🆙
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
