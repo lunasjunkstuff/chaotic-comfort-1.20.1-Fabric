@@ -34,7 +34,7 @@ public class ModItems {
                     super.appendTooltip(stack, world, tooltip, context);
                 }
             });
-    //unobtainable Lore Item, dw about it🆙
+    //unobtainable Character Lore Item, supposed to be just a skin but dont have a different texture for it, maybe i´ll ask hstar, dw about it🆙
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
