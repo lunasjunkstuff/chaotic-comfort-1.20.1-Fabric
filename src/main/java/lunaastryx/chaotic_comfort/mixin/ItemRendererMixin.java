@@ -22,10 +22,19 @@ public abstract class ItemRendererMixin {
         }
         return value;
     }
+
     @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
     public BakedModel useGlitchyElectricGuitarModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
         if (stack.isOf(ModItems.GLITCHY_ELECTRIC_GUITAR) && renderMode != ModelTransformationMode.GUI) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(ChaoticComfort.MOD_ID, "glitchy_electric_guitar_3d", "inventory"));
+        }
+        return value;
+    }
+
+    @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
+    public BakedModel useBaguetteModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
+        if (stack.isOf(ModItems.BAGUETTE) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(ChaoticComfort.MOD_ID, "baguette_3d", "inventory"));
         }
         return value;
     }

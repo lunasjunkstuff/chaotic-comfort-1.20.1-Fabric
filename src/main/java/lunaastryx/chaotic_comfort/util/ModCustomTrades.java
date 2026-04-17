@@ -95,16 +95,24 @@ public class ModCustomTrades {
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GUY, 4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 67),
-                            new ItemStack(ModItems.POMMES_ROT_WEISS_MUSIC_DISC, 1),
+                            new ItemStack(Items.NETHERITE_INGOT, 2),
+                            new ItemStack(ModItems.ELECTRIC_GUITAR, 1),
                             1, 67, 0.075f));
                 });
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GUY, 4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.NETHERITE_INGOT, 2),
-                            new ItemStack(ModItems.ELECTRIC_GUITAR, 1),
+                            new ItemStack(Items.NETHERITE_SWORD, 1),
+                            new ItemStack(ModItems.BAGUETTE, 1),
+                            1, 67, 0.075f));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.GUY, 5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 67),
+                            new ItemStack(ModItems.POMMES_ROT_WEISS_MUSIC_DISC, 1),
                             1, 67, 0.075f));
                 });
 

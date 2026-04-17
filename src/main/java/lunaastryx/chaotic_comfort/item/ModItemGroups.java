@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ELECTRIC_GUITAR)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.ELECTRIC_GUITAR);
+                        entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.GOLDEN_NETHER_STAR);
                         entries.add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
 

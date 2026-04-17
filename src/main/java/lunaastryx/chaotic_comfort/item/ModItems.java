@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -35,6 +36,11 @@ public class ModItems {
                 }
             });
     //unobtainable Character Lore Item, supposed to be just a skin but dont have a different texture for it, maybe i´ll ask hstar, dw about it🆙
+
+    public static final Item BAGUETTE = registerItem("baguette",
+            new SwordItem(ModToolMaterialClass.BAGUETTE, 0, -2.4f, new FabricItemSettings().maxCount(1)));
+
+    //make it a Ego exclusive Pale Bone Alloy Saber Skin fr fr
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);

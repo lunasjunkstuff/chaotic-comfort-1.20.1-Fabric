@@ -23,6 +23,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.ELECTRIC_GUITAR);
 
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.BAGUETTE);
+
         getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
                 .add(Items.COPPER_INGOT);
 

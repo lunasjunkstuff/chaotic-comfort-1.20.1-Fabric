@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-14T18:17:15.5728847	Chaotic Comfort/Model Definitions
+// 1.20.1	2026-04-17T21:30:12.3904546	Chaotic Comfort/Model Definitions
 63aa6ecda736d5d92d394c22793e868bb9ccb96b assets\chaotic_comfort\models\block\polished_tuff_slab_top.json
 80b242499b0fc8b9b55cd56e903d5ae4aff3b41d assets\chaotic_comfort\blockstates\pale_oak_button.json
 e6ad3901ef4c70cf56f55b2ac5afae4b884958db assets\chaotic_comfort\blockstates\potted_purple_tulip.json
@@ -11,6 +11,7 @@ aa1550c3c1dd78c4966d8c86f9aae7e7fca0918b assets\chaotic_comfort\blockstates\tuff
 f7ed30eba68fe954f0b9e28a0fe94733481afb3b assets\chaotic_comfort\models\block\polished_tuff_wall_post.json
 18127181985a15a5f1b683ee4840a45cef99993a assets\chaotic_comfort\blockstates\potted_yellow_tulip.json
 6e43619146f6e7dc1ec67c8df09410fb2273d45d assets\chaotic_comfort\models\item\tuff_bricks.json
+72a5326f839930b506ab1a94911f43c76971542c assets\chaotic_comfort\models\item\baguette.json
 e38c6886adab06da4955826fd034dfed78cf3601 assets\chaotic_comfort\models\item\chiseled_tuff.json
 2a4dde44b069be0bdd0e7927c3fdf888973efd96 assets\chaotic_comfort\models\block\pale_oak_door_bottom_left.json
 114b3656b7824fe7f893b1a7a5185ccb2af38815 assets\chaotic_comfort\models\block\pale_oak_trapdoor_bottom.json

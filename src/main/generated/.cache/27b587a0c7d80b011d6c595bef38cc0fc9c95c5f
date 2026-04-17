@@ -1,4 +1,4 @@
-// 1.20.1	2026-04-14T18:17:15.5702787	Chaotic Comfort/Block Loot Tables
+// 1.20.1	2026-04-17T21:30:12.3890125	Chaotic Comfort/Block Loot Tables
 b5b344d8c895ab91641c663982942bcbe348ee34 data\chaotic_comfort\loot_tables\blocks\purple_tulip.json
 26d1b2427597edf753cfc51fb2c558a61c68092f data\chaotic_comfort\loot_tables\blocks\stripped_pale_oak_wood.json
 2d290e0898c9b38635abb964f0290384c12ea409 data\chaotic_comfort\loot_tables\blocks\pale_oak_fence.json
@@ -24,8 +24,8 @@ eef4eca9fa27ed4ce683a9e20d4de8eea200cacf data\chaotic_comfort\loot_tables\blocks
 a4d73020fc954ab968a48cbfdb0c73d81a173de5 data\chaotic_comfort\loot_tables\blocks\potted_yellow_tulip.json
 86236a3ea3ef7b4ebba21be992405e936f25c64e data\chaotic_comfort\loot_tables\blocks\tuff_wall.json
 128ae6a0820eae09a7ef23d2429f56efabf04bfa data\chaotic_comfort\loot_tables\blocks\pale_oak_planks.json
-466d80a82985eb11e3755093288434e80db9e35b data\chaotic_comfort\loot_tables\blocks\polished_tuff_slab.json
 a981e7955d5e6b284650b6199ba3686015c5c6fb data\chaotic_comfort\loot_tables\blocks\pale_oak_pressure_plate.json
+466d80a82985eb11e3755093288434e80db9e35b data\chaotic_comfort\loot_tables\blocks\polished_tuff_slab.json
 c8a54531bca470cd9fbffd85289847ba30a3ce33 data\chaotic_comfort\loot_tables\blocks\stripped_pale_oak_log.json
 8b50af812ac156c912739b0ee1b41b78e0973ec5 data\chaotic_comfort\loot_tables\blocks\pale_oak_button.json
 6470fe54811d6876156188ce240857ff53fd148f data\chaotic_comfort\loot_tables\blocks\pale_oak_log.json
