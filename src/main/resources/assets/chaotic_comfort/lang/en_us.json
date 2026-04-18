@@ -3,9 +3,13 @@
 
   "item.chaotic_comfort.electric_guitar": "Electric Guitar",
   "item.chaotic_comfort.glitchy_electric_guitar": "§5§k§lElectric Guitar§r§r§r",
-  "tooltip.chaotic_chaos.glitchy_electric_guitar.tooltip": "§5You´re not supposed to be here§r",
+  "tooltip.chaotic_comfort.glitchy_electric_guitar.tooltip": "§5You´re not supposed to be here§r",
 
   "item.chaotic_comfort.baguette": "Baguette",
+  "tooltip.chaotic_comfort.baguette.tooltip": "How do you kill a French vampire? Drive a baguette through its heart, it's a painstaking process.",
+
+  "item.chaotic_comfort.top_hat": "Top Hat",
+  "tooltip.chaotic_comfort.top_hat.tooltip": "That's a tall order, even for a stovepipe hat.",
 
   "block.chaotic_comfort.purple_tulip": "Purple Tulip",
   "block.chaotic_comfort.yellow_tulip": "Yellow Tulip",

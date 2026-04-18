@@ -1,7 +1,6 @@
 package lunaastryx.chaotic_comfort.item;
 
 import lunaastryx.chaotic_comfort.ChaoticComfort;
-import lunaastryx.chaotic_comfort.block.ModBlocks;
 import lunaastryx.chaotic_comfort.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -26,21 +25,40 @@ public class ModItems {
             new MusicDiscItem(7, ModSounds.POMMES_ROT_WEISS, new FabricItemSettings().maxCount(1), 61));
 
     public static final Item ELECTRIC_GUITAR = registerItem("electric_guitar",
-            new AxeItem(ModToolMaterialClass.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()));
+            new AxeItem(ModToolMaterial.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()));
     public static final Item GLITCHY_ELECTRIC_GUITAR = registerItem("glitchy_electric_guitar",
-            new AxeItem(ModToolMaterialClass.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()) {
+            new AxeItem(ModToolMaterial.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()) {
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.chaotic_chaos.glitchy_electric_guitar.tooltip"));
+                    tooltip.add(Text.translatable("tooltip.chaotic_comfort.glitchy_electric_guitar.tooltip"));
                     super.appendTooltip(stack, world, tooltip, context);
                 }
             });
     //unobtainable Character Lore Item, supposed to be just a skin but dont have a different texture for it, maybe i´ll ask hstar, dw about it🆙
 
     public static final Item BAGUETTE = registerItem("baguette",
-            new SwordItem(ModToolMaterialClass.BAGUETTE, 0, -2.4f, new FabricItemSettings().maxCount(1)));
+            new SwordItem(ModToolMaterial.BAGUETTE, 0, -2.4f, new FabricItemSettings().maxCount(1)) {
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.chaotic_comfort.baguette.tooltip"));
+                    super.appendTooltip(stack, world, tooltip, context);
+                }
+            });
 
     //make it a Ego exclusive Pale Bone Alloy Saber Skin fr fr
+
+    public static final Item TOP_HAT = registerItem("top_hat",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()){
+                public EquipmentSlot getSlotType() {
+                    return EquipmentSlot.HEAD;
+                }
+
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(Text.translatable("tooltip.chaotic_comfort.top_hat.tooltip"));
+                    super.appendTooltip(stack, world, tooltip, context);
+                }
+            });
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
@@ -48,6 +66,8 @@ public class ModItems {
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.ELECTRIC_GUITAR);
+        entries.add(ModItems.BAGUETTE);
+        entries.add(ModItems.TOP_HAT);
     }
 
     private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
