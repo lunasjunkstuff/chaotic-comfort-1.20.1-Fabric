@@ -4,6 +4,7 @@ import lunaastryx.chaotic_comfort.ChaoticComfort;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -11,8 +12,11 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-   // TOP_HAT("top_hat", 37, new int[] {3, 6, 8, 3}, 19, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 3f, 0f,
-    //       () -> Ingredient.ofItems(Blocks.BLACK_WOOL))
+    CLOAK("cloak", 37, new int[] {3, 6, 8, 3}, 19, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 3f, 0f,
+           () -> Ingredient.ofItems(Blocks.BLACK_WOOL)),
+
+    MINING("mining_helmet", 7, new int[] {1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0f, 0f,
+            () -> Ingredient.ofItems(Items.GOLD_INGOT))
     ;
 
     private final String name;
