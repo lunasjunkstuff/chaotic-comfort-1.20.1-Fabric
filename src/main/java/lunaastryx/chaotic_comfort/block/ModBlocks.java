@@ -147,7 +147,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        ChaoticComfort.LOGGER.info("Registering ModBlocks for " + ChaoticComfort.MOD_ID);
+        ChaoticComfort.LOGGER.info("Registering Mod Blocks for " + ChaoticComfort.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModBlocks::addBlocksToNaturalTabItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModBlocks::addBlocksToBuildingBlocksTabItemGroup);

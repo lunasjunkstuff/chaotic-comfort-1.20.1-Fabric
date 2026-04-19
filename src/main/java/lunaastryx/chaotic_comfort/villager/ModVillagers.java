@@ -22,7 +22,7 @@ public class ModVillagers {
     public static final VillagerProfession GUY = registerProfession("guy", GUY_POI_KEY);
 
     public static final RegistryKey<PointOfInterestType> FLORIST_POI_KEY = poikey("floristpoi");
-    public static final PointOfInterestType FLORIST_POI = registerPoi("floristpoi", Blocks.FLOWER_POT);
+    public static final PointOfInterestType FLORIST_POI = registerPoi("floristpoi", Blocks.DECORATED_POT);
 
     public static final VillagerProfession FLORIST = registerProfession("florist", FLORIST_POI_KEY);
 
@@ -45,6 +45,6 @@ public class ModVillagers {
     }
 
     public static void registerVillagers() {
-        ChaoticComfort.LOGGER.info("Registering Villager J-words for" + ChaoticComfort.MOD_ID);
+        ChaoticComfort.LOGGER.info("Registering Villager J-words for " + ChaoticComfort.MOD_ID);
     }
 }
