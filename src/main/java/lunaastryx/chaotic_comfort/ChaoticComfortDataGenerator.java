@@ -14,5 +14,6 @@ public class ChaoticComfortDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModPoiTagProvider::new);
+		pack.addProvider(ModPaintingVariantGenerator::new);
 	}
 }

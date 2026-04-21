@@ -3,6 +3,7 @@ package lunaastryx.chaotic_comfort;
 import lunaastryx.chaotic_comfort.block.ModBlocks;
 import lunaastryx.chaotic_comfort.item.ModItemGroups;
 import lunaastryx.chaotic_comfort.item.ModItems;
+import lunaastryx.chaotic_comfort.painting.ModPaintings;
 import lunaastryx.chaotic_comfort.sound.ModSounds;
 import lunaastryx.chaotic_comfort.util.ModCustomTrades;
 import lunaastryx.chaotic_comfort.villager.ModVillagers;
@@ -20,10 +21,11 @@ public class ChaoticComfort implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		ModItemGroups.registerItemGroups();
+		ModPaintings.registerPaintings();
 
 		ModSounds.registerSounds();
 
