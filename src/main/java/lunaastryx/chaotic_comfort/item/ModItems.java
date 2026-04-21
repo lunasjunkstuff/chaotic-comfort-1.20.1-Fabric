@@ -47,12 +47,18 @@ public class ModItems {
 
     //make it a Ego exclusive Pale Bone Alloy Saber Skin fr fr
 
+    public static final Item MINING_HELMET = registerItem("mining_helmet",
+            new ArmorItem(ModArmorMaterials.MINING, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+
+    public static final Item CLOAK = registerItem("cloak",
+            new ArmorItem(ModArmorMaterials.CLOAK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
+
     public static final Item TOP_HAT = registerItem("top_hat",
             new Item(new FabricItemSettings().maxCount(1).fireproof()){
                 public EquipmentSlot getSlotType() {
                     return EquipmentSlot.HEAD;
+                    //WHY DOES THIS NOT WORK
                 }
-
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
                     tooltip.add(Text.translatable("tooltip.chaotic_comfort.top_hat.tooltip"));
@@ -62,12 +68,14 @@ public class ModItems {
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
+        entries.add(ModItems.TOP_HAT);
     }
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.ELECTRIC_GUITAR);
         entries.add(ModItems.BAGUETTE);
-        entries.add(ModItems.TOP_HAT);
+        entries.add(ModItems.MINING_HELMET);
+        entries.add(ModItems.CLOAK);
     }
 
     private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {

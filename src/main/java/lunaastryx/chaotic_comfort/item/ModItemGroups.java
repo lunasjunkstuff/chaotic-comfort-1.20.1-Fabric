@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ELECTRIC_GUITAR);
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.TOP_HAT);
+                        entries.add(ModItems.MINING_HELMET);
+                        entries.add(ModItems.CLOAK);
                         entries.add(ModItems.GOLDEN_NETHER_STAR);
                         entries.add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
 
