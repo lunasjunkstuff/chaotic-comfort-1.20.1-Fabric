@@ -3,7 +3,6 @@ package lunaastryx.chaotic_comfort.datagen;
 import lunaastryx.chaotic_comfort.datagen.provider.PaintingTagProvider;
 import lunaastryx.chaotic_comfort.painting.ModPaintings;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.entity.decoration.painting.PaintingVariant;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.PaintingVariantTags;
 
