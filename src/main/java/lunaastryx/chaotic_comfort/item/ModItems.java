@@ -10,6 +10,7 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
@@ -20,6 +21,8 @@ import java.util.List;
 public class ModItems {
     public static final Item GOLDEN_NETHER_STAR = registerItem("golden_nether_star",
             new Item(new FabricItemSettings().fireproof()));
+
+    public static final Item PUFFER_ARMOR_TRIM = SmithingTemplateItem.of(new Identifier("chaotic_comfort", "puffer_armor_trim"));
 
     public static final Item POMMES_ROT_WEISS_MUSIC_DISC = registerItem("pommes_rot_weiss_music_disc",
             new MusicDiscItem(7, ModSounds.POMMES_ROT_WEISS, new FabricItemSettings().maxCount(1), 61));
@@ -53,22 +56,8 @@ public class ModItems {
     public static final Item CLOAK = registerItem("cloak",
             new ArmorItem(ModArmorMaterials.CLOAK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
 
-    public static final Item TOP_HAT = registerItem("top_hat",
-            new Item(new FabricItemSettings().maxCount(1).fireproof()){
-                public EquipmentSlot getSlotType() {
-                    return EquipmentSlot.HEAD;
-                    //WHY DOES THIS NOT WORK
-                }
-                @Override
-                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.chaotic_comfort.top_hat.tooltip"));
-                    super.appendTooltip(stack, world, tooltip, context);
-                }
-            });
-
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
-        entries.add(ModItems.TOP_HAT);
     }
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {

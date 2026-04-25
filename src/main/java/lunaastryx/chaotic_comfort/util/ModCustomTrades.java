@@ -57,7 +57,7 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 4),
-                            new ItemStack(Items.STONE_BRICKS, 24),
+                            new ItemStack(Items.STONE, 24),
                             7, 7, 0.075f));
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 3),
