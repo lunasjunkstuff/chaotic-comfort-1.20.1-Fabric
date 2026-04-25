@@ -50,11 +50,11 @@ public class ModItems {
 
     //make it a Ego exclusive Pale Bone Alloy Saber Skin fr fr
 
-    public static final Item MINING_HELMET = registerItem("mining_helmet",
-            new ArmorItem(ModArmorMaterials.MINING, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
+    //public static final Item MINING_HELMET = registerItem("mining_helmet",
+      //      new ArmorItem(ModArmorMaterials.MINING, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
 
-    public static final Item CLOAK = registerItem("cloak",
-            new ArmorItem(ModArmorMaterials.CLOAK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
+    //public static final Item CLOAK = registerItem("cloak",
+      //      new ArmorItem(ModArmorMaterials.CLOAK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
@@ -63,8 +63,8 @@ public class ModItems {
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.ELECTRIC_GUITAR);
         entries.add(ModItems.BAGUETTE);
-        entries.add(ModItems.MINING_HELMET);
-        entries.add(ModItems.CLOAK);
+        //entries.add(ModItems.MINING_HELMET);
+        //entries.add(ModItems.CLOAK);
     }
 
     private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
