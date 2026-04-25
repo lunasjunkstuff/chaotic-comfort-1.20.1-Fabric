@@ -38,12 +38,4 @@ public abstract class ItemRendererMixin {
         }
         return value;
     }
-
-    @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
-    public BakedModel useTopHatModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
-        if (stack.isOf(ModItems.TOP_HAT) && renderMode != ModelTransformationMode.GUI) {
-            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(ChaoticComfort.MOD_ID, "top_hat", "inventory"));
-        }
-        return value;
-    }
 }
