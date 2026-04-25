@@ -5,8 +5,6 @@ Items:
 -Golden Nether Star (which doesnt do anything(dont have any ideas(help)))
 -Electric Guitar(an Axe Item with Sword Enchants that has 9 damage and 1.33 speed)
 -Baguette(Basically a netherite Sword)
--Top Hat (it doesnt work😭)
--Textureless Helmet and Chestplate
 Blocks:
 -Pale Garden Backport(only half the blocks)
 -Tuff Blocks Backport
