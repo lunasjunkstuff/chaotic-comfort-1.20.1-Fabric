@@ -113,14 +113,5 @@ public class ModCustomTrades {
                             new ItemStack(ModBlocks.YELLOW_TULIP, 8),
                             5, 3, 0.075f));
                 });
-
-        //custom Shepherd trade lol
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.SHEPHERD, 1,
-                factories -> {
-                    factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 7),
-                            new ItemStack(ModItems.TOP_HAT, 1),
-                            3, 3, 0.075f));
-                });
     }
 }
