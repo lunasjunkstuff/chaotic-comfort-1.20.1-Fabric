@@ -48,7 +48,7 @@ public class ModCustomTrades {
                             new ItemStack(Items.BRICKS, 24),
                             6, 7, 0.075f));
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(Items.EMERALD, 3),
                             new ItemStack(Items.TUFF, 24),
                             4, 7, 0.075f));
                 });
@@ -56,11 +56,11 @@ public class ModCustomTrades {
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GUY, 3,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 4),
+                            new ItemStack(Items.EMERALD, 2),
                             new ItemStack(Items.STONE, 24),
                             7, 7, 0.075f));
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 3),
+                            new ItemStack(Items.EMERALD, 4),
                             new ItemStack(Items.COBBLED_DEEPSLATE, 24),
                             5, 7, 0.075f));
                 });
