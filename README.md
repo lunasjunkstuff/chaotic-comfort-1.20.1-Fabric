@@ -8,6 +8,9 @@ Items:
 Blocks:
 -Pale Garden Backport(only half the blocks)
 -Tuff Blocks Backport
+-Dripstone Stairs, Slabs and Walls
+-Calcite Stairs, Slabs and Walls
+-Smooth Basalt Stairs, Slabs and Walls
 -A few more Tulip variants
 More Stuff:
 -Villager J-words(one trades a few colors terracotta, cobbled deepslate, tuff, stone bricks, brick blocks, goofy music disc and electric guitar, the other trades all types of tulips as of writing this)
