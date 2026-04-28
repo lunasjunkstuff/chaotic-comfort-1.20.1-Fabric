@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:smooth_basalt"
+    },
+    {
+      "item": "minecraft:basalt"
+    }
+  ],
+  "result": "chaotic_comfort:smooth_basalt_wall",
+  "count": 1
+}

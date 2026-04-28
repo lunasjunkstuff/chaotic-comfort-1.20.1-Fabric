@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:dripstone"
+    },
+  "result": "chaotic_comfort:dripstone_wall",
+  "count": 1
+}
