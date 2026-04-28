@@ -16,6 +16,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
+            new StairsBlock(Blocks.CALCITE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CALCITE)));
+    public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)));
+    public static final Block CALCITE_WALL = registerBlock("calcite_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.CALCITE)));
+
     public static final Block TUFF_STAIRS = registerBlock("tuff_stairs",
             new StairsBlock(Blocks.TUFF.getDefaultState(), FabricBlockSettings.copyOf(Blocks.TUFF)));
     public static final Block TUFF_SLAB = registerBlock("tuff_slab",
@@ -119,6 +126,12 @@ public class ModBlocks {
         entries.add(ModBlocks.PALE_OAK_PRESSURE_PLATE);
         entries.add(ModBlocks.PALE_OAK_BUTTON);
 
+        entries.add(Blocks.CALCITE);
+        entries.add(ModBlocks.CALCITE_STAIRS);
+        entries.add(ModBlocks.CALCITE_SLAB);
+        entries.add(ModBlocks.CALCITE_WALL);
+
+        entries.add(Blocks.TUFF);
         entries.add(ModBlocks.TUFF_STAIRS);
         entries.add(ModBlocks.TUFF_SLAB);
         entries.add(ModBlocks.TUFF_WALL);

@@ -16,6 +16,12 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        BlockStateModelGenerator.BlockTexturePool calcitepool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CALCITE);
+
+        calcitepool.stairs(ModBlocks.CALCITE_STAIRS);
+        calcitepool.slab(ModBlocks.CALCITE_SLAB);
+        calcitepool.wall(ModBlocks.CALCITE_WALL);
+
         BlockStateModelGenerator.BlockTexturePool tuffpool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.TUFF);
 
         tuffpool.stairs(ModBlocks.TUFF_STAIRS);
