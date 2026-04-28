@@ -16,6 +16,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    //smooth basalt, dripstone
+
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
             new StairsBlock(Blocks.CALCITE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.CALCITE)));
     public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
@@ -54,6 +56,20 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.TUFF)));
     public static final Block CHISELED_TUFF_BRICKS = registerBlock("chiseled_tuff_bricks",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.TUFF)));
+
+    public static final Block DRIPSTONE_STAIRS = registerBlock("dripstone_stairs",
+            new StairsBlock(Blocks.DRIPSTONE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)));
+    public static final Block DRIPSTONE_SLAB = registerBlock("dripstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)));
+    public static final Block DRIPSTONE_WALL = registerBlock("dripstone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)));
+
+    public static final Block SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
+            new StairsBlock(Blocks.SMOOTH_BASALT.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SMOOTH_BASALT)));
+    public static final Block SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_BASALT)));
+    public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_BASALT)));
 
     public static final Block PALE_MOSS_BLOCK = registerBlock("pale_moss_block",
             new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
@@ -126,6 +142,11 @@ public class ModBlocks {
         entries.add(ModBlocks.PALE_OAK_PRESSURE_PLATE);
         entries.add(ModBlocks.PALE_OAK_BUTTON);
 
+        entries.add(Blocks.DRIPSTONE_BLOCK);
+        entries.add(ModBlocks.DRIPSTONE_STAIRS);
+        entries.add(ModBlocks.DRIPSTONE_SLAB);
+        entries.add(ModBlocks.DRIPSTONE_WALL);
+
         entries.add(Blocks.CALCITE);
         entries.add(ModBlocks.CALCITE_STAIRS);
         entries.add(ModBlocks.CALCITE_SLAB);
@@ -147,6 +168,11 @@ public class ModBlocks {
         entries.add(ModBlocks.POLISHED_TUFF_STAIRS);
         entries.add(ModBlocks.POLISHED_TUFF_SLAB);
         entries.add(ModBlocks.POLISHED_TUFF_WALL);
+
+        entries.add(Blocks.SMOOTH_BASALT);
+        entries.add(ModBlocks.SMOOTH_BASALT_STAIRS);
+        entries.add(ModBlocks.SMOOTH_BASALT_SLAB);
+        entries.add(ModBlocks.SMOOTH_BASALT_WALL);
     }
 
     private static Block registerBlock(String name, Block block) {

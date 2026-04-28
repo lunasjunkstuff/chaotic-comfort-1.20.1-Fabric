@@ -12,22 +12,30 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.CALCITE_STAIRS);
-        addDrop(ModBlocks.CALCITE_SLAB);
+        addDrop(ModBlocks.CALCITE_SLAB, slabDrops(ModBlocks.CALCITE_SLAB));
         addDrop(ModBlocks.CALCITE_WALL);
 
+        addDrop(ModBlocks.DRIPSTONE_STAIRS);
+        addDrop(ModBlocks.DRIPSTONE_SLAB, slabDrops(ModBlocks.DRIPSTONE_SLAB));
+        addDrop(ModBlocks.DRIPSTONE_WALL);
+
+        addDrop(ModBlocks.SMOOTH_BASALT_STAIRS);
+        addDrop(ModBlocks.SMOOTH_BASALT_WALL);
+        addDrop(ModBlocks.SMOOTH_BASALT_SLAB, slabDrops(ModBlocks.SMOOTH_BASALT_SLAB));
+
         addDrop(ModBlocks.TUFF_STAIRS);
-        addDrop(ModBlocks.TUFF_SLAB);
+        addDrop(ModBlocks.TUFF_SLAB, slabDrops(ModBlocks.TUFF_SLAB));
         addDrop(ModBlocks.TUFF_WALL);
 
         addDrop(ModBlocks.TUFF_BRICKS);
-        addDrop(ModBlocks.TUFF_BRICK_SLAB);
+        addDrop(ModBlocks.TUFF_BRICK_SLAB, slabDrops(ModBlocks.TUFF_BRICK_SLAB));
         addDrop(ModBlocks.TUFF_BRICK_STAIRS);
         addDrop(ModBlocks.TUFF_BRICK_WALL);
 
         addDrop(ModBlocks.POLISHED_TUFF);
         addDrop(ModBlocks.POLISHED_TUFF_WALL);
         addDrop(ModBlocks.POLISHED_TUFF_STAIRS);
-        addDrop(ModBlocks.POLISHED_TUFF_SLAB);
+        addDrop(ModBlocks.POLISHED_TUFF_SLAB, slabDrops(ModBlocks.POLISHED_TUFF_SLAB));
 
         addDrop(ModBlocks.CHISELED_TUFF);
         addDrop(ModBlocks.CHISELED_TUFF_BRICKS);

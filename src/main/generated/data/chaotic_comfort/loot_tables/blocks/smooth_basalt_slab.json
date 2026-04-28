@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "chaotic_comfort:polished_tuff_slab",
+                  "block": "chaotic_comfort:smooth_basalt_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,7 +25,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "chaotic_comfort:polished_tuff_slab"
+          "name": "chaotic_comfort:smooth_basalt_slab"
         }
       ],
       "rolls": 1.0

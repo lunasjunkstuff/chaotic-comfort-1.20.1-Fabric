@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "chaotic_comfort:dripstone_wall",
+    "chaotic_comfort:smooth_basalt_wall",
     "chaotic_comfort:calcite_wall",
     "chaotic_comfort:tuff_wall",
     "chaotic_comfort:polished_tuff_wall",
