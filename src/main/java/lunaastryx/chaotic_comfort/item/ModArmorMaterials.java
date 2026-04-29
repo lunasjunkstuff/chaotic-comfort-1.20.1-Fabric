@@ -13,10 +13,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     CLOAK("cloak", 37, new int[] {3, 6, 8, 3}, 19, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 3f, 0f,
-           () -> Ingredient.ofItems(Blocks.BLACK_WOOL)),
-
-    MINING("mining_helmet", 7, new int[] {1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0f, 0f,
-            () -> Ingredient.ofItems(Items.GOLD_INGOT))
+           () -> Ingredient.ofItems(Blocks.BLACK_WOOL))
     ;
 
     private final String name;

@@ -27,15 +27,6 @@ public class ModItems {
 
     public static final Item ELECTRIC_GUITAR = registerItem("electric_guitar",
             new AxeItem(ModToolMaterial.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()));
-    public static final Item GLITCHY_ELECTRIC_GUITAR = registerItem("glitchy_electric_guitar",
-            new AxeItem(ModToolMaterial.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()) {
-                @Override
-                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(Text.translatable("tooltip.chaotic_comfort.glitchy_electric_guitar.tooltip"));
-                    super.appendTooltip(stack, world, tooltip, context);
-                }
-            });
-    //unobtainable Character Lore Item, supposed to be just a skin but dont have a different texture for it, maybe i´ll ask hstar, dw about it🆙
 
     public static final Item BAGUETTE = registerItem("baguette",
             new SwordItem(ModToolMaterial.BAGUETTE, 0, -2.4f, new FabricItemSettings().maxCount(1)) {
@@ -48,9 +39,6 @@ public class ModItems {
 
     //make it a Ego exclusive Pale Bone Alloy Saber Skin fr fr
 
-    //public static final Item MINING_HELMET = registerItem("mining_helmet",
-      //      new ArmorItem(ModArmorMaterials.MINING, ArmorItem.Type.HELMET, new FabricItemSettings().maxCount(1)));
-
     //public static final Item CLOAK = registerItem("cloak",
       //      new ArmorItem(ModArmorMaterials.CLOAK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
 
@@ -61,7 +49,6 @@ public class ModItems {
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.ELECTRIC_GUITAR);
         entries.add(ModItems.BAGUETTE);
-        //entries.add(ModItems.MINING_HELMET);
         //entries.add(ModItems.CLOAK);
     }
 
