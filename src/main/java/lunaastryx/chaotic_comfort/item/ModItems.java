@@ -39,9 +39,6 @@ public class ModItems {
 
     //make it a Ego exclusive Pale Bone Alloy Saber Skin fr fr
 
-    //public static final Item CLOAK = registerItem("cloak",
-      //      new ArmorItem(ModArmorMaterials.CLOAK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxCount(1)));
-
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
     }
@@ -49,7 +46,6 @@ public class ModItems {
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.ELECTRIC_GUITAR);
         entries.add(ModItems.BAGUETTE);
-        //entries.add(ModItems.CLOAK);
     }
 
     private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {

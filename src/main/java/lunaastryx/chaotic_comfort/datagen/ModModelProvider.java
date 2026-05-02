@@ -55,8 +55,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF).log(ModBlocks.CHISELED_TUFF);
         blockStateModelGenerator.registerLog(ModBlocks.CHISELED_TUFF_BRICKS).log(ModBlocks.CHISELED_TUFF_BRICKS);
 
-        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.PALE_MOSS_BLOCK, ModBlocks.PALE_MOSS_CARPET);
-
         BlockStateModelGenerator.BlockTexturePool palepool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PALE_OAK_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALE_OAK_LEAVES);
         blockStateModelGenerator.registerLog(ModBlocks.PALE_OAK_LOG).log(ModBlocks.PALE_OAK_LOG).wood(ModBlocks.PALE_OAK_WOOD);
