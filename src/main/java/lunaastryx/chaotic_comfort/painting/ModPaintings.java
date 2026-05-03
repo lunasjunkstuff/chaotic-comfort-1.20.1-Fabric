@@ -15,5 +15,6 @@ public class ModPaintings {
     }
 
     public static void registerPaintings() {
+        ChaoticComfort.LOGGER.info("Registering ONE Painting for " + ChaoticComfort.MOD_ID);
     }
 }

@@ -26,7 +26,6 @@ public class ChaoticComfort implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModPaintings.registerPaintings();
-
 		ModSounds.registerSounds();
 
 		ModCustomTrades.registerCustomTrades();
