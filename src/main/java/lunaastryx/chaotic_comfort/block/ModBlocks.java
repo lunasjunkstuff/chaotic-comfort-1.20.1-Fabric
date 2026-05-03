@@ -1,7 +1,6 @@
 package lunaastryx.chaotic_comfort.block;
 
 import lunaastryx.chaotic_comfort.ChaoticComfort;
-import lunaastryx.chaotic_comfort.item.ModItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
