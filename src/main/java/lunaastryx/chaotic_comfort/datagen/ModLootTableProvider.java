@@ -40,6 +40,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHISELED_TUFF);
         addDrop(ModBlocks.CHISELED_TUFF_BRICKS);
 
+        addDrop(ModBlocks.PALE_MOSS_BLOCK);
+        addDrop(ModBlocks.PALE_MOSS_CARPET);
+
         addDrop(ModBlocks.PALE_OAK_PLANKS);
         addDrop(ModBlocks.PALE_OAK_LOG);
         addDrop(ModBlocks.STRIPPED_PALE_OAK_LOG);

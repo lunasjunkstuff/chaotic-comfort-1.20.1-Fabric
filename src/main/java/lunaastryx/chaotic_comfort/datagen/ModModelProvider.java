@@ -70,6 +70,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.PALE_OAK_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PALE_OAK_TRAPDOOR);
 
+        blockStateModelGenerator.registerWoolAndCarpet(ModBlocks.PALE_MOSS_BLOCK, ModBlocks.PALE_MOSS_CARPET);
+
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PURPLE_TULIP, ModBlocks.POTTED_PURPLE_TULIP, BlockStateModelGenerator.TintType.NOT_TINTED );
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_TULIP, ModBlocks.POTTED_YELLOW_TULIP, BlockStateModelGenerator.TintType.NOT_TINTED );
     }

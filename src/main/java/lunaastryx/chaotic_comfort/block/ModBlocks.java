@@ -71,6 +71,11 @@ public class ModBlocks {
     public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_BASALT)));
 
+    public static final Block PALE_MOSS_BLOCK = registerBlock("pale_moss_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
+    public static final Block PALE_MOSS_CARPET = registerBlock("pale_moss_carpet",
+            new CarpetBlock(FabricBlockSettings.copyOf(Blocks.MOSS_CARPET)));
+
     public static final Block PALE_OAK_PLANKS = registerBlock("pale_oak_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS)));
 
@@ -118,6 +123,8 @@ public class ModBlocks {
 
     private static void addBlocksToNaturalTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.PALE_OAK_LEAVES);
+        entries.add(ModBlocks.PALE_MOSS_BLOCK);
+        entries.add(ModBlocks.PALE_MOSS_CARPET);
         entries.add(ModBlocks.PURPLE_TULIP);
         entries.add(ModBlocks.YELLOW_TULIP);
     }
