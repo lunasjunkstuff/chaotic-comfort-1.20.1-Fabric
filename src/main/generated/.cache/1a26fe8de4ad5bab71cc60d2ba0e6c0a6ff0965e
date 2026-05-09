@@ -1,4 +1,4 @@
-// 1.20.1	2026-05-03T19:55:37.7679737	Chaotic Comfort/Model Definitions
+// 1.20.1	2026-05-09T16:52:39.5996168	Chaotic Comfort/Model Definitions
 ae4f7ccb2e5e20175316cd027166d0f0caaa780b assets\minecraft\blockstates\calcite.json
 e6ad3901ef4c70cf56f55b2ac5afae4b884958db assets\chaotic_comfort\blockstates\potted_purple_tulip.json
 76989a7a7048ba4070c0e7918cc2ab652e2f7be9 assets\chaotic_comfort\blockstates\tuff_brick_slab.json
@@ -141,8 +141,8 @@ c37b8ff639b299d3f35e334fe785e68b9a1668d9 assets\chaotic_comfort\models\block\smo
 37b897df2496d9faac325636a7c27a9d8b86674b assets\chaotic_comfort\models\item\tuff_stairs.json
 871aca0974eaab0c032e5467262dbb76d48d1422 assets\chaotic_comfort\blockstates\tuff_slab.json
 a626ca643cc47ae1adbc5c59133f19789cffd4ba assets\chaotic_comfort\models\block\polished_tuff_slab.json
-0a91f30912adbee64a05680f6d7034b0ba3f9a12 assets\chaotic_comfort\models\block\stripped_pale_oak_wood.json
 9dbba5e16407ef3c0d779042c7a6d1e14f42b88d assets\chaotic_comfort\models\item\pale_moss_carpet.json
+0a91f30912adbee64a05680f6d7034b0ba3f9a12 assets\chaotic_comfort\models\block\stripped_pale_oak_wood.json
 c49d84d5d5c3f8f419251eee625f8f95ae200ae3 assets\chaotic_comfort\blockstates\tuff_brick_stairs.json
 9825e539a636c59ade7e8a0810d84b315ca025e0 assets\chaotic_comfort\models\block\tuff_stairs_inner.json
 3a05839f5ae2917dff30cb7df57aaf6cbb8218f8 assets\chaotic_comfort\models\item\pommes_rot_weiss_music_disc.json

@@ -116,5 +116,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PALE_OAK_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.PALE_OAK_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.FLOWERS)
+                .add(ModBlocks.PURPLE_TULIP)
+                .add(ModBlocks.YELLOW_TULIP);
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(ModBlocks.YELLOW_TULIP)
+                .add(ModBlocks.PURPLE_TULIP);
     }
 }
