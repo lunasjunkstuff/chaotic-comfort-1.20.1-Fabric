@@ -1,6 +1,7 @@
 package lunaastryx.chaotic_comfort.block;
 
 import lunaastryx.chaotic_comfort.ChaoticComfort;
+import lunaastryx.chaotic_comfort.world.tree.PaleOakSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -109,6 +110,9 @@ public class ModBlocks {
     public static final Block PALE_OAK_LEAVES = registerBlock("pale_oak_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
 
+    public static final Block PALE_OAK_SAPLING = registerBlock("pale_oak_sapling",
+            new SaplingBlock(new PaleOakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.DARK_OAK_SAPLING)));
+
     public static final Block PURPLE_TULIP = registerBlock("purple_tulip",
             new FlowerBlock(StatusEffects.RESISTANCE, 7, FabricBlockSettings.copyOf(Blocks.WHITE_TULIP).nonOpaque()));
     public static final Block POTTED_PURPLE_TULIP = Registry.register(Registries.BLOCK, new Identifier(ChaoticComfort.MOD_ID, "potted_purple_tulip"),
@@ -120,6 +124,7 @@ public class ModBlocks {
             new FlowerPotBlock(YELLOW_TULIP, FabricBlockSettings.copyOf(Blocks.POTTED_WHITE_TULIP).nonOpaque()));
 
     private static void addBlocksToNaturalTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.PALE_OAK_SAPLING);
         entries.add(ModBlocks.PALE_OAK_LEAVES);
         entries.add(ModBlocks.PALE_MOSS_BLOCK);
         entries.add(ModBlocks.PALE_MOSS_CARPET);

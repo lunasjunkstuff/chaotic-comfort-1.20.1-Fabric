@@ -60,6 +60,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.PALE_OAK_LOG).log(ModBlocks.PALE_OAK_LOG).wood(ModBlocks.PALE_OAK_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PALE_OAK_LOG).log(ModBlocks.STRIPPED_PALE_OAK_LOG).wood(ModBlocks.STRIPPED_PALE_OAK_WOOD);
 
+        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_OAK_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
         palepool.stairs(ModBlocks.PALE_OAK_STAIRS);
         palepool.button(ModBlocks.PALE_OAK_BUTTON);
         palepool.pressurePlate(ModBlocks.PALE_OAK_PRESSURE_PLATE);
