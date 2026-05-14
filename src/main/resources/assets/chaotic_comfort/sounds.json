@@ -6,5 +6,45 @@
         "stream": true
       }
     ]
+  },
+  "romh": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:romh",
+        "stream": true
+      }
+    ]
+  },
+  "cure": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:cure",
+        "stream": true
+      }
+    ]
+  },
+  "karma": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:karma",
+        "stream": true
+      }
+    ]
+  },
+"eleventh_hour": {
+  "sounds": [
+    {
+      "name": "chaotic_comfort:eleventh_hour",
+      "stream": true
+    }
+  ]
+},
+  "solstice": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:solstice",
+        "stream": true
+      }
+    ]
   }
 }

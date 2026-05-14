@@ -10,6 +10,13 @@ public class ModSounds {
 
     public static final SoundEvent POMMES_ROT_WEISS = registerSoundEvent("pommes_rot_weiss");
 
+    public static final SoundEvent RULER_OF_MY_HEART = registerSoundEvent("romh");
+    public static final SoundEvent CURE = registerSoundEvent("cure");
+    public static final SoundEvent KARMA = registerSoundEvent("karma");
+
+    public static final SoundEvent ELEVENTH_HOUR = registerSoundEvent("eleventh_hour");
+    public static final SoundEvent SOLSTICE = registerSoundEvent("solstice");
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(ChaoticComfort.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

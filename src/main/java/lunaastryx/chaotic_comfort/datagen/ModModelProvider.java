@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -84,5 +85,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BAGUETTE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_NETHER_STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.POMMES_ROT_WEISS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RULER_OF_MY_HEART_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CURE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KARMA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ELEVENTH_HOUR_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SOLSTICE_MUSIC_DISC, Models.GENERATED);
     }
 }
